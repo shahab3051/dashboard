@@ -9,7 +9,7 @@ window.DASHBOARD_CONFIG = {
   //    (Deploy the included Code.gs as a Web App -> "Execute as: Me" ->
   //    "Who has access: Anyone with the link" -> copy the /exec URL below.)
   //    Leave empty to run in "upload only" mode (drag-and-drop an .xlsx file).
-  APPS_SCRIPT_URL: "",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxRlQmpOpHl79pqtS13xj-bWjsIMGdxLlrgMgS06nN56CPZEdKUOoPWEc1R9oT200fA/exec",
 
   // 2) Names of the two tabs in your Google Sheet.
   SHEET_TABS: {
