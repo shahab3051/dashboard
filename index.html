@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Call Center Performance Dashboard</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loading-overlay"><div class="spinner"></div><span>Loading dashboard data…</span></div>
+<div id="app"></div>
+<div id="toast-stack"></div>
+
+<!-- Charting -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<!-- Excel parsing (for the Upload / replace-dataset feature) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<!-- Compression (used for local caching of live API data) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+
+<!-- Only file you should need to edit after deployment -->
+<script src="config.js"></script>
+
+<!-- App code, in dependency order -->
+<script src="js/data-core.js"></script>
+<script src="js/data-upload.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
